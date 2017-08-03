@@ -27,9 +27,9 @@ import com.semanticcms.core.model.BookRef;
 import com.semanticcms.core.model.Copyright;
 import com.semanticcms.core.model.PageRef;
 import com.semanticcms.core.model.ParentRef;
+import com.semanticcms.core.model.ResourceRef;
+import com.semanticcms.core.model.ResourceStore;
 import com.semanticcms.core.repository.Book;
-import java.io.File;
-import java.net.URL;
 import java.util.Map;
 import java.util.Set;
 
@@ -56,12 +56,12 @@ public class MissingBook extends Book {
 	}
 
 	@Override
-	public File getSourceFile(String path, boolean requireBook, boolean requireFile) {
+	public ResourceStore getResourceStore() {
 		return null;
 	}
 
 	@Override
-	public URL getSourceURL(String path) {
+	public ResourceRef getPageSource(PageRef pageRef) {
 		return null;
 	}
 
