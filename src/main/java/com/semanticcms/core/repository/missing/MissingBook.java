@@ -28,8 +28,8 @@ import com.semanticcms.core.model.Copyright;
 import com.semanticcms.core.model.PageRef;
 import com.semanticcms.core.model.ParentRef;
 import com.semanticcms.core.model.ResourceRef;
-import com.semanticcms.core.model.ResourceStore;
 import com.semanticcms.core.repository.Book;
+import com.semanticcms.core.resources.ResourceStore;
 import java.util.Map;
 import java.util.Set;
 
