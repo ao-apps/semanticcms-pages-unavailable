@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-semanticcms-core-repository-missing - Allows references to missing books with optional links to an external base URL.
+semanticcms-pages-missing - Allows references to missing pages with optional links to an external base URL.
 Copyright (C) 2017  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
     Mobile, AL 36695
 
-This file is part of semanticcms-core-repository-missing.
+This file is part of semanticcms-pages-missing.
 
-semanticcms-core-repository-missing is free software: you can redistribute it and/or modify
+semanticcms-pages-missing is free software: you can redistribute it and/or modify
 it under the terms of the GNU Lesser General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
 
-semanticcms-core-repository-missing is distributed in the hope that it will be useful,
+semanticcms-pages-missing is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU Lesser General Public License for more details.
 
 You should have received a copy of the GNU Lesser General Public License
-along with semanticcms-core-repository-missing.  If not, see <http://www.gnu.org/licenses />.
+along with semanticcms-pages-missing.  If not, see <http://www.gnu.org/licenses />.
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
@@ -32,21 +32,20 @@ along with semanticcms-core-repository-missing.  If not, see <http://www.gnu.org
 	</parent>
 
 	<groupId>com.semanticcms</groupId>
-	<artifactId>semanticcms-core-repository-missing</artifactId>
+	<artifactId>semanticcms-pages-missing</artifactId>
 	<version>2.0.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<properties>
 		<javadoc.breadcrumbs><![CDATA[<a target="_top" href="https://semanticcms.com/">SemanticCMS</a>
-/ <a target="_top" href="https://semanticcms.com/core/">Core</a>
-/ <a target="_top" href="https://semanticcms.com/repository/">Repository</a>
+/ <a target="_top" href="https://semanticcms.com/pages/">Pages</a>
 / <a target="_top" href="${project.url}">${shortTitle}</a>]]></javadoc.breadcrumbs>
 		<shortTitle>Missing</shortTitle>
 	</properties>
 
-	<name>SemanticCMS Core Repository Missing</name>
-	<url>https://semanticcms.com/core/repository/missing/</url>
-	<description>Allows references to missing books with optional links to an external base URL.</description>
+	<name>SemanticCMS Pages Missing</name>
+	<url>https://semanticcms.com/pages/missing/</url>
+	<description>Allows references to missing pages with optional links to an external base URL.</description>
 	<inceptionYear>2017</inceptionYear>
 
 	<scm>
@@ -70,7 +69,7 @@ along with semanticcms-core-repository-missing.  If not, see <http://www.gnu.org
 								<links>
 									<link>${javac.link.javaApi}</link>
 									<link>https://semanticcms.com/core/model/apidocs/</link>
-									<link>https://semanticcms.com/core/repository/apidocs/</link>
+									<link>https://semanticcms.com/core/pages/apidocs/</link>
 									<link>https://semanticcms.com/core/resources/apidocs/</link>
 								</links>
 							</configuration>
@@ -89,7 +88,7 @@ along with semanticcms-core-repository-missing.  If not, see <http://www.gnu.org
 		</dependency>
 		<dependency>
 			<groupId>com.semanticcms</groupId>
-			<artifactId>semanticcms-core-repository</artifactId>
+			<artifactId>semanticcms-core-pages</artifactId>
 			<version>2.0.0-SNAPSHOT</version>
 		</dependency>
 		<dependency>

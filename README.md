@@ -1,4 +1,4 @@
-# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://aoindustries.com/) [SemanticCMS](https://semanticcms.com/) / [Core](https://semanticcms.com/core/) / [Repository](https://semanticcms.com/core/repository/) / [Missing](https://semanticcms.com/core/repository/missing/)
+# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://aoindustries.com/) [SemanticCMS](https://semanticcms.com/) / [Pages](https://semanticcms.com/pages/) / [Missing](https://semanticcms.com/pages/missing/)
 <p>
 	<a href="https://aoindustries.com/life-cycle#project-alpha">
 		<img src="https://semanticcms.com/ao-badges/project-alpha.svg" alt="project: alpha" />
@@ -21,14 +21,14 @@
 	</a>
 </p>
 
-Allows references to missing books with optional links to an external base URL.
+Allows references to missing pages with optional links to an external base URL.
 
 ## Project Links
-* [Project Home](https://semanticcms.com/core/repository/missing/)
-* [Changelog](https://semanticcms.com/core/repository/missing/changelog)
-* [API Docs](https://semanticcms.com/core/repository/missing/apidocs/)
-* [Maven Central Repository](https://search.maven.org/#search%7Cgav%7C1%7Cg:%22com.semanticcms%22%20AND%20a:%22semanticcms-core-repository-missing%22)
-* [GitHub](https://github.com/aoindustries/semanticcms-core-repository-missing)
+* [Project Home](https://semanticcms.com/pages/missing/)
+* [Changelog](https://semanticcms.com/pages/missing/changelog)
+* [API Docs](https://semanticcms.com/pages/missing/apidocs/)
+* [Maven Central Repository](https://search.maven.org/#search%7Cgav%7C1%7Cg:%22com.semanticcms%22%20AND%20a:%22semanticcms-pages-missing%22)
+* [GitHub](https://github.com/aoindustries/semanticcms-pages-missing)
 
 ## Contact Us
 For questions or support, please [contact us](https://aoindustries.com/contact):
