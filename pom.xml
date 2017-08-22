@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-semanticcms-pages-missing - Allows references to missing pages with optional links to an external base URL.
+semanticcms-pages-unavailable - Unavailable sets of SemanticCMS pages.
 Copyright (C) 2017  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
     Mobile, AL 36695
 
-This file is part of semanticcms-pages-missing.
+This file is part of semanticcms-pages-unavailable.
 
-semanticcms-pages-missing is free software: you can redistribute it and/or modify
+semanticcms-pages-unavailable is free software: you can redistribute it and/or modify
 it under the terms of the GNU Lesser General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
 
-semanticcms-pages-missing is distributed in the hope that it will be useful,
+semanticcms-pages-unavailable is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU Lesser General Public License for more details.
 
 You should have received a copy of the GNU Lesser General Public License
-along with semanticcms-pages-missing.  If not, see <http://www.gnu.org/licenses />.
+along with semanticcms-pages-unavailable.  If not, see <http://www.gnu.org/licenses />.
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
@@ -32,7 +32,7 @@ along with semanticcms-pages-missing.  If not, see <http://www.gnu.org/licenses 
 	</parent>
 
 	<groupId>com.semanticcms</groupId>
-	<artifactId>semanticcms-pages-missing</artifactId>
+	<artifactId>semanticcms-pages-unavailable</artifactId>
 	<version>2.0.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
@@ -40,12 +40,14 @@ along with semanticcms-pages-missing.  If not, see <http://www.gnu.org/licenses 
 		<javadoc.breadcrumbs><![CDATA[<a target="_top" href="https://semanticcms.com/">SemanticCMS</a>
 / <a target="_top" href="https://semanticcms.com/pages/">Pages</a>
 / <a target="_top" href="${project.url}">${shortTitle}</a>]]></javadoc.breadcrumbs>
-		<shortTitle>Missing</shortTitle>
+		<shortTitle>Unavailable</shortTitle>
+
+		<description.html><![CDATA[Unavailable sets of <a target="_top" href="https://semanticcms.com/">SemanticCMS</a> pages.]]></description.html>
 	</properties>
 
-	<name>SemanticCMS Pages Missing</name>
-	<url>https://semanticcms.com/pages/missing/</url>
-	<description>Allows references to missing pages with optional links to an external base URL.</description>
+	<name>SemanticCMS Pages Unavailable</name>
+	<url>https://semanticcms.com/pages/unavailable/</url>
+	<description>Unavailable sets of SemanticCMS pages.</description>
 	<inceptionYear>2017</inceptionYear>
 
 	<scm>

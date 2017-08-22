@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-semanticcms-pages-missing - Allows references to missing pages with optional links to an external base URL.
+semanticcms-pages-unavailable - Unavailable sets of SemanticCMS pages.
 Copyright (C) 2017  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
     Mobile, AL 36695
 
-This file is part of semanticcms-pages-missing.
+This file is part of semanticcms-pages-unavailable.
 
-semanticcms-pages-missing is free software: you can redistribute it and/or modify
+semanticcms-pages-unavailable is free software: you can redistribute it and/or modify
 it under the terms of the GNU Lesser General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
 
-semanticcms-pages-missing is distributed in the hope that it will be useful,
+semanticcms-pages-unavailable is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU Lesser General Public License for more details.
 
 You should have received a copy of the GNU Lesser General Public License
-along with semanticcms-pages-missing.  If not, see <http://www.gnu.org/licenses />.
+along with semanticcms-pages-unavailable.  If not, see <http://www.gnu.org/licenses />.
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
@@ -32,20 +32,20 @@ along with semanticcms-pages-missing.  If not, see <http://www.gnu.org/licenses 
 	</parent>
 
 	<groupId>com.semanticcms</groupId>
-	<artifactId>semanticcms-pages-missing-book</artifactId>
+	<artifactId>semanticcms-pages-unavailable-book</artifactId>
 	<version>2.0.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<properties>
 		<!-- These values are copied from the project being documented -->
 		<documented.groupId>com.semanticcms</documented.groupId>
-		<documented.artifactId>semanticcms-pages-missing</documented.artifactId>
+		<documented.artifactId>semanticcms-pages-unavailable</documented.artifactId>
 		<documented.javaVersion>1.6</documented.javaVersion>
 		<documented.javac.link.javaApi>${javac.link.javaApi.jdk16}</documented.javac.link.javaApi>
-		<documented.name>SemanticCMS Pages Missing</documented.name>
-		<documented.shortTitle>Missing</documented.shortTitle>
-		<documented.url>https://semanticcms.com/pages/missing/</documented.url>
-		<documented.description>Allows references to missing pages with optional links to an external base URL.</documented.description>
+		<documented.name>SemanticCMS Pages Unavailable</documented.name>
+		<documented.shortTitle>Unavailable</documented.shortTitle>
+		<documented.url>https://semanticcms.com/pages/unavailable/</documented.url>
+		<documented.description>Unavailable sets of SemanticCMS pages.</documented.description>
 		<documented.inceptionYear>2017</documented.inceptionYear>
 		<documented.scm.url>https://github.com/aoindustries/${documented.artifactId}</documented.scm.url>
 
@@ -131,7 +131,7 @@ along with semanticcms-pages-missing.  If not, see <http://www.gnu.org/licenses 
 		<!-- Dependency for dependencyversion-maven-plugin only -->
 		<dependency>
 			<groupId>com.semanticcms</groupId>
-			<artifactId>semanticcms-pages-missing</artifactId>
+			<artifactId>semanticcms-pages-unavailable</artifactId>
 			<version>2.0.0-SNAPSHOT</version>
 			<type>pom</type>
 			<scope>provided</scope>
