@@ -48,7 +48,7 @@ along with semanticcms-pages-unavailable.  If not, see <http://www.gnu.org/licen
 			arg.license="${currentPage.property.license}"
 		/>
 		<p>
-			Unavailable sets of <core:link book="/" page="/index.jspx" /> pages.
+			Unavailable sets of <core:link book="/pages" page="/index.jspx">SemanticCMS pages</core:link>.
 		</p>
 		<section:section label="Project Links">
 			<ul>

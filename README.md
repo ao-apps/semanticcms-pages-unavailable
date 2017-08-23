@@ -21,7 +21,7 @@
 	</a>
 </p>
 
-Unavailable sets of [SemanticCMS](https://semanticcms.com/) pages.
+Unavailable sets of [SemanticCMS pages](https://semanticcms.com/pages/).
 
 ## Project Links
 * [Project Home](https://semanticcms.com/pages/unavailable/)
