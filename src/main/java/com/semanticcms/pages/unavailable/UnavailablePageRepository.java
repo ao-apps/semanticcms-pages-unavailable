@@ -1,6 +1,6 @@
 /*
  * semanticcms-pages-unavailable - Unavailable sets of SemanticCMS pages.
- * Copyright (C) 2017  AO Industries, Inc.
+ * Copyright (C) 2017, 2018  AO Industries, Inc.
  *     support@aoindustries.com
  *     7262 Bull Pen Cir
  *     Mobile, AL 36695
@@ -29,7 +29,7 @@ import com.semanticcms.core.pages.PageRepository;
 import java.io.IOException;
 
 /**
- * An empty {@link PageRepository}
+ * A permanently unavailable {@link PageRepository}
  */
 public class UnavailablePageRepository implements PageRepository {
 
@@ -50,11 +50,6 @@ public class UnavailablePageRepository implements PageRepository {
 	@Override
 	public boolean isAvailable() {
 		return false;
-	}
-
-	@Override
-	public boolean exists(Path path) throws IOException {
-		throw new IOException("Page repository is unavailable: " + path);
 	}
 
 	@Override
