@@ -1,4 +1,4 @@
-# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://aoindustries.com/) [SemanticCMS](https://semanticcms.com/) / [Pages](https://semanticcms.com/pages/) / [Unavailable](https://semanticcms.com/pages/unavailable/)
+# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://github.com/aoindustries) [SemanticCMS](https://github.com/aoindustries/semanticcms) / [Pages](https://github.com/aoindustries/semanticcms-pages) / [Unavailable](https://github.com/aoindustries/semanticcms-pages-unavailable)
 <p>
 	<a href="https://aoindustries.com/life-cycle#project-alpha">
 		<img src="https://semanticcms.com/ao-badges/project-alpha.svg" alt="project: alpha" />
@@ -21,7 +21,7 @@
 	</a>
 </p>
 
-Unavailable sets of [SemanticCMS pages](https://semanticcms.com/pages/).
+Unavailable sets of [SemanticCMS pages](https://github.com/aoindustries/semanticcms-pages).
 
 ## Project Links
 * [Project Home](https://semanticcms.com/pages/unavailable/)
