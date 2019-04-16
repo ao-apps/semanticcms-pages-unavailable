@@ -64,9 +64,9 @@ along with semanticcms-pages-unavailable.  If not, see <http://www.gnu.org/licen
 						<configuration>
 							<links>
 								<link>${javac.link.javaApi}</link>
-								<link>https://aoindustries.com/ao-net-types/apidocs</link>
-								<link>https://semanticcms.com/core/model/apidocs</link>
-								<link>https://semanticcms.com/core/pages/apidocs</link>
+								<link>https://aoindustries.com/ao-net-types/apidocs/</link>
+								<link>https://semanticcms.com/core/model/apidocs/</link>
+								<link>https://semanticcms.com/core/pages/apidocs/</link>
 							</links>
 						</configuration>
 					</plugin>
