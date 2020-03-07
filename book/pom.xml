@@ -35,8 +35,6 @@ along with semanticcms-pages-unavailable.  If not, see <http://www.gnu.org/licen
 	<properties>
 		<!-- These values are copied from the project being documented -->
 		<documented.artifactId>semanticcms-pages-unavailable</documented.artifactId>
-		<documented.javaVersion>1.8</documented.javaVersion>
-		<documented.javac.link.javaApi>${javac.link.javaApi.jdk8}</documented.javac.link.javaApi>
 		<documented.name>SemanticCMS Pages Unavailable²</documented.name>
 		<documented.shortTitle>Unavailable</documented.shortTitle>
 		<documented.description>Unavailable sets of SemanticCMS pages.</documented.description>
