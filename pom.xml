@@ -71,7 +71,7 @@ along with semanticcms-pages-unavailable.  If not, see <http://www.gnu.org/licen
 								<!-- Direct -->
 								<link>https://aoindustries.com/ao-net-types/apidocs/</link>
 								<link>https://semanticcms.com/core/model/apidocs/</link>
-								<link>https://semanticcms.com/core/pages/apidocs/</link>
+								<!-- TODO: Once published: <link>https://semanticcms.com/core/pages/apidocs/</link> -->
 							</links>
 						</configuration>
 					</plugin>
