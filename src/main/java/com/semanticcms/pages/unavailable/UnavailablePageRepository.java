@@ -1,6 +1,6 @@
 /*
  * semanticcms-pages-unavailable - Unavailable sets of SemanticCMS pages.
- * Copyright (C) 2017, 2018  AO Industries, Inc.
+ * Copyright (C) 2017, 2018, 2021  AO Industries, Inc.
  *     support@aoindustries.com
  *     7262 Bull Pen Cir
  *     Mobile, AL 36695
@@ -22,7 +22,7 @@
  */
 package com.semanticcms.pages.unavailable;
 
-import com.aoindustries.net.Path;
+import com.aoapps.net.Path;
 import com.semanticcms.core.model.Page;
 import com.semanticcms.core.pages.CaptureLevel;
 import com.semanticcms.core.pages.PageRepository;
