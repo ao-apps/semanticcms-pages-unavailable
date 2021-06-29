@@ -33,6 +33,7 @@ along with semanticcms-pages-unavailable.  If not, see <http://www.gnu.org/licen
 	<packaging>bundle</packaging>
 
 	<properties>
+		<module.name>com.semanticcms.pages.unavailable</module.name>
 		<javadoc.breadcrumbs><![CDATA[<a target="${javadoc.target}" href="https://semanticcms.com/">SemanticCMS</a>
 / <a target="${javadoc.target}" href="https://semanticcms.com/pages/">Pages</a>
 / <a target="${javadoc.target}" href="${project.url}">Unavailable</a>]]></javadoc.breadcrumbs>
