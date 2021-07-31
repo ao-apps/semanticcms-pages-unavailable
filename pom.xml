@@ -141,7 +141,7 @@ along with semanticcms-pages-unavailable.  If not, see <http://www.gnu.org/licen
 					<plugin>
 						<groupId>org.apache.maven.plugins</groupId><artifactId>maven-javadoc-plugin</artifactId>
 						<configuration>
-							<offlineLinks>
+							<offlineLinks combine.children="append">
 								<!-- Direct -->
 								<offlineLink>
 									<url>https://oss.aoapps.com/net-types/apidocs/</url>
@@ -154,11 +154,6 @@ along with semanticcms-pages-unavailable.  If not, see <http://www.gnu.org/licen
 								<offlineLink>
 									<url>https://semanticcms.com/core/pages/apidocs/</url>
 									<location>${project.build.directory}/offlineLinks/com.semanticcms/semanticcms-core-pages</location>
-								</offlineLink>
-								<!-- Java SE -->
-								<offlineLink>
-									<url>${javadoc.link.javase}</url>
-									<location>${project.build.directory}/offlineLinks/com/aoapps/javadoc/offline/javase/${javase.release}</location>
 								</offlineLink>
 							</offlineLinks>
 						</configuration>
