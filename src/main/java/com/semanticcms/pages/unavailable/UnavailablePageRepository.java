@@ -31,7 +31,7 @@ import java.io.IOException;
 /**
  * A permanently unavailable {@link PageRepository}
  */
-public class UnavailablePageRepository implements PageRepository {
+public final class UnavailablePageRepository implements PageRepository {
 
 	private static final UnavailablePageRepository instance = new UnavailablePageRepository();
 
@@ -40,6 +40,7 @@ public class UnavailablePageRepository implements PageRepository {
 	}
 
 	private UnavailablePageRepository() {
+		// Do nothing
 	}
 
 	@Override
