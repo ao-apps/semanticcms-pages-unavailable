@@ -34,28 +34,28 @@ import java.io.IOException;
  */
 public final class UnavailablePageRepository implements PageRepository {
 
-	private static final UnavailablePageRepository instance = new UnavailablePageRepository();
+  private static final UnavailablePageRepository instance = new UnavailablePageRepository();
 
-	public static UnavailablePageRepository getInstance() {
-		return instance;
-	}
+  public static UnavailablePageRepository getInstance() {
+    return instance;
+  }
 
-	private UnavailablePageRepository() {
-		// Do nothing
-	}
+  private UnavailablePageRepository() {
+    // Do nothing
+  }
 
-	@Override
-	public String toString() {
-		return "unavailable:";
-	}
+  @Override
+  public String toString() {
+    return "unavailable:";
+  }
 
-	@Override
-	public boolean isAvailable() {
-		return false;
-	}
+  @Override
+  public boolean isAvailable() {
+    return false;
+  }
 
-	@Override
-	public Page getPage(Path path, CaptureLevel captureLevel) throws IOException {
-		throw new IOException("Page repository is unavailable: " + path);
-	}
+  @Override
+  public Page getPage(Path path, CaptureLevel captureLevel) throws IOException {
+    throw new IOException("Page repository is unavailable: " + path);
+  }
 }
