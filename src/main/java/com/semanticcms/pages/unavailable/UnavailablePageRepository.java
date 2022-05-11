@@ -30,7 +30,7 @@ import com.semanticcms.core.pages.PageRepository;
 import java.io.IOException;
 
 /**
- * A permanently unavailable {@link PageRepository}
+ * A permanently unavailable {@link PageRepository}.
  */
 public final class UnavailablePageRepository implements PageRepository {
 
