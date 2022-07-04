@@ -47,7 +47,7 @@ along with semanticcms-pages-unavailable.  If not, see <https://www.gnu.org/lice
     <sonar.coverage.exclusions>**.*</sonar.coverage.exclusions>
   </properties>
 
-  <name>SemanticCMS Pages Unavailable²</name>
+  <name>SemanticCMS Pages Unavailable</name>
   <url>https://semanticcms.com/pages/unavailable/</url>
   <description>Unavailable sets of SemanticCMS pages.</description>
   <inceptionYear>2017</inceptionYear>
