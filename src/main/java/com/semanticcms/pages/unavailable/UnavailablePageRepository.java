@@ -1,6 +1,6 @@
 /*
  * semanticcms-pages-unavailable - Unavailable sets of SemanticCMS pages.
- * Copyright (C) 2017, 2018, 2021, 2022, 2024  AO Industries, Inc.
+ * Copyright (C) 2017, 2018, 2021, 2022, 2024, 2025  AO Industries, Inc.
  *     support@aoindustries.com
  *     7262 Bull Pen Cir
  *     Mobile, AL 36695
@@ -27,7 +27,6 @@ import com.aoapps.net.Path;
 import com.semanticcms.core.model.Page;
 import com.semanticcms.core.pages.CaptureLevel;
 import com.semanticcms.core.pages.PageRepository;
-import edu.umd.cs.findbugs.annotations.SuppressFBWarnings;
 import java.io.IOException;
 
 /**
@@ -37,7 +36,6 @@ public final class UnavailablePageRepository implements PageRepository {
 
   private static final UnavailablePageRepository instance = new UnavailablePageRepository();
 
-  @SuppressFBWarnings(value = "SING_SINGLETON_GETTER_NOT_SYNCHRONIZED", justification = "instance is static final")
   public static UnavailablePageRepository getInstance() {
     return instance;
   }
