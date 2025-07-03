@@ -22,7 +22,7 @@ Unavailable sets of [SemanticCMS pages](https://github.com/ao-apps/semanticcms-p
 * [Project Home](https://semanticcms.com/pages/unavailable/)
 * [Changelog](https://semanticcms.com/pages/unavailable/changelog)
 * [API Docs](https://semanticcms.com/pages/unavailable/apidocs/)
-* [Maven Central Repository](https://central.sonatype.com/artifact/com.semanticcms/semanticcms-pages-unavailable)
+* [Central Repository](https://central.sonatype.com/artifact/com.semanticcms/semanticcms-pages-unavailable)
 * [GitHub](https://github.com/ao-apps/semanticcms-pages-unavailable)
 
 ## Contact Us
